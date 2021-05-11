@@ -52,7 +52,7 @@ public class CashbackHackServiceTestJUnit4 {
     @Test
     public void testRemainNegative() {
         int actual = bonus.remain(-1);
-        int expected = 0;
+        int expected = 1000;
         assertEquals(expected, actual);
     }
 
